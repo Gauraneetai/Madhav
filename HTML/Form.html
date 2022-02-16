@@ -4,7 +4,57 @@
     </head>
     <body>
         <h2>signup form</h2>
-        <label for="inputemail">email address</label>
+        <form>
+            <div>
+        <label Name="lblemail" for="inputemail">email address</label>
         <input type="email"Name="inputemail">
+        </div>
+        <div>
+        <label Name="lblname" for="input name">name</label>
+        <input type="text" Name="input name">
+      </div>
+      <div>
+        <label Name="lblusername" for="input username">username</label>
+        <input type="text" Name="input username">
+      </div>
+      <div>
+          <label Name="lblpassword"  for="input password">password</label>
+          <input type="password" Name="input password">
+      </div>
+      <div>
+          <label Name="lblDOB" for="inputDOB">date of birth</label>
+          <input type="date" Name="inputDOB">
+      </div>
+      <div>
+          <label Name="lblphone' for="inputphone">phone</label>
+          <input type="tel" Name="inputPhone">
+          <div>
+          <label for="txtAddress">Address</label>
+          <textarea name="txtAddress" id="txtAddress" cols="30" rows="4"></textarea>
+      </div>
+      <div>
+          <label for="InputGender">Gender</label>
+          <input type="radio" Name="Gender"><label>Male</label>
+          <input type="radio"Name="Gender"><label>Female</label>
+      </div>
+      <div>
+          <label for="inputFile">Upload Resume</label>
+          <input type="File" Name="input File">
+      </div>
+      <div>
+          <label for="ddlCountry">Country</label>
+          <select name="ddlCountry" id="ddlCountry">
+              <option value="0">Select</option>
+              <option value="1">India</option>
+              <option value="2">UK</option>
+              <option value="3">China</option>
+          </select>
+      </div>
+      <div>
+          <input type="CheckBox" name="inputterms"><label for="inputtermx">Terms & Condions</label>
+      </div>
+        <input type="Submit">
+        </form>
+
     </body>
 </html>
