@@ -1,12 +1,18 @@
 <html>
     <head>
         <title>signup form</title>
+        <link rel="stylesheet" href="Forms.css">
+        <style>
+           #h2Title {
+                font-size: 50px;
+            }
+        </style>
     </head>
     <body>
-        <h2>signup form</h2>
+        <h2 id="h2Title" style="color: blue">signup form</h2>
         <form>
             <div>
-        <label Name="lblemail" for="inputemail">email address</label>
+        <label class="mandatory_fields" Name="lblemail" for="inputemail">email address</label>
         <input type="email"Name="inputemail">
         </div>
         <div>
@@ -14,11 +20,11 @@
         <input type="text" Name="input name">
       </div>
       <div>
-        <label Name="lblusername" for="input username">username</label>
+        <label class="mandatory_fields" Name="lblusername" for="input username">username</label>
         <input type="text" Name="input username">
       </div>
       <div>
-          <label Name="lblpassword"  for="input password">password</label>
+          <label class="mandatory_fields" Name="lblpassword"  for="input password">password</label>
           <input type="password" Name="input password">
       </div>
       <div>
