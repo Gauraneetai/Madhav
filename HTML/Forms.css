@@ -3,10 +3,31 @@ h2Title{
     font-family: 'Courier New', Courier, monospace;
     color: aquamarine;
 }
+.title{
+    background: lightgray;
+    border: 1px groove lightslategray;
+    padding: 10px;
+    padding-left: 0;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px 10px 5px 30px;
+    margin: 20px 10px 5px 30px;
+    margin: 30px 10px;
+}
 *{
     font-family: 'Courier New', Courier, monospace;
 
 }
 .mandatory_fields{
     font-weight: bold;
+}
+
+.container{
+    background-color: lightblue;
+}
+.header{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.wallpapertip.com/wmimgs/216-2163898_twitter-header-wallpaper.jpg);
 }
