@@ -6,6 +6,9 @@ h2Title{
 .title{
     background: lightgray;
     border: 1px groove lightslategray;
+    border-bottom: 5px dashed black;
+    border-radius: 5px;
+    border-color: cadetblue;
     padding: 10px;
     padding-left: 0;
     margin: 20px;
