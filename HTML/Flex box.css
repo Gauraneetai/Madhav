@@ -1,13 +1,19 @@
 .parent{
     padding: 4%;
-    margin: 2%;
     border: 1px solid green;
     display: flex;
+    background-color: coral;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 }
 .child{
+    display: flex;
     background-color: yellow;
     border: 1px solid black;
     margin: 2%;
     height: 150px;
     width: 150px;
+    justify-content: center;
+    align-items: center;
 }
